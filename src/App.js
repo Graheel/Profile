@@ -63,76 +63,48 @@ function App() {
           </section>
 
           <section>
-  <h2 className="text-2xl font-semibold text-blue-900 border-b pb-1 mb-2">Projects</h2>
-  <p className="leading-relaxed mb-4">
-    As part of my major academic project, I developed <strong>Ibus E-Ticket</strong>, a full-featured MERN stack application. This platform allows users to conveniently book and manage bus tickets online. It includes features like user and driver authentication, admin panel, and route-based ticket booking.
-  </p>
-  <a
-    href="https://i-bus-e-ticket.onrender.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block bg-blue-900 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-800 transition"
-  >
-    Visit Live Project 🚍
-  </a>
-</section>
+            <h2 className="text-2xl font-semibold text-blue-900 border-b pb-1 mb-2">Projects</h2>
+            <p className="leading-relaxed mb-4">
+              As part of my major academic project, I developed <strong>Ibus E-Ticket</strong>, a full-featured MERN stack application. This platform allows users to conveniently book and manage bus tickets online. It includes features like user and driver authentication, admin panel, and route-based ticket booking.
+            </p>
+            <a
+              href="https://i-bus-e-ticket.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-900 text-white px-5 py-2 rounded-lg shadow hover:bg-blue-800 transition"
+            >
+              Visit Live Project 🚍
+            </a>
+          </section>
 
+          {/* Contact & Socials */}
+          <section id="contact" className="mt-10 contact-info">
+            <h2 className="text-2xl font-semibold text-blue-900 border-b-2 border-blue-900 pb-2 mb-4">
+              Contact & Socials
+            </h2>
 
-{/* Contact & Socials Section (Horizontal Clickable) */}
-<section id="contact" className="mt-10 contact-info">
-  <h2 className="text-2xl font-semibold text-blue-900 border-b-2 border-blue-900 pb-2 mb-4">
-    Contact & Socials
-  </h2>
+            <div className="contact-grid">
+              <a href="tel:6266306631" className="contact-link">
+                <div className="icon-button"><FaPhoneAlt /></div>
+                <span>6266306631</span>
+              </a>
 
-  <div className="flex flex-wrap gap-6 items-center justify-start">
-    {/* Phone */}
-    <a href="tel:6266306631" className="flex items-center space-x-2 contact-link">
-      <div className="icon-button">
-        <FaPhoneAlt />
-      </div>
-      <span>6266306631</span>
-    </a>
+              <a href="mailto:graheelupadhyay@gmail.com" className="contact-link">
+                <div className="icon-button"><FaEnvelope /></div>
+                <span>graheelupadhyay@gmail.com</span>
+              </a>
 
-    {/* Email */}
-    <a
-      href="mailto:graheelupadhyay@gmail.com"
-      className="flex items-center space-x-2 contact-link"
-    >
-      <div className="icon-button">
-        <FaEnvelope />
-      </div>
-      <span>graheelupadhyay@gmail.com</span>
-    </a>
+              <a href="https://www.instagram.com/graheelupadhyay/?__pwa=1#" target="_blank" rel="noopener noreferrer" className="contact-link">
+                <div className="icon-button"><FaInstagram /></div>
+                <span>Instagram</span>
+              </a>
 
-    {/* Instagram */}
-    <a
-      href="https://www.instagram.com/graheelupadhyay/?__pwa=1#"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center space-x-2 contact-link"
-    >
-      <div className="icon-button">
-        <FaInstagram />
-      </div>
-      <span>Instagram</span>
-    </a>
-
-    {/* Telegram */}
-    <a
-      href="https://t.me/Graheel"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center space-x-2 contact-link"
-    >
-      <div className="icon-button">
-        <FaTelegramPlane />
-      </div>
-      <span>Telegram</span>
-    </a>
-  </div>
-</section>
-
-
+              <a href="https://t.me/Graheel" target="_blank" rel="noopener noreferrer" className="contact-link">
+                <div className="icon-button"><FaTelegramPlane /></div>
+                <span>Telegram</span>
+              </a>
+            </div>
+          </section>
         </div>
       </main>
 
